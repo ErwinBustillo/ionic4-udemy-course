@@ -20,6 +20,8 @@ const routes: Routes = [
   { path: 'list-reorder', loadChildren: './pages/list-reorder/list-reorder.module#ListReorderPageModule' },
   { path: 'loading', loadChildren: './pages/loading/loading.module#LoadingPageModule' },
   { path: 'tabs', loadChildren: './pages/tabs/tabs.module#TabsPageModule' },
+  { path: 'modal', loadChildren: './pages/modal/modal.module#ModalPageModule' },
+
 ];
 
 @NgModule({
